@@ -14,6 +14,7 @@ public final class NotifyFactoryTest {
 		Scanner sc = new Scanner(System.in);
 		
 		String condition = "y";
+		String condition12 = "N";
 		
 		while(condition.equals("y")) {
 			System.out.println("Please enter a class name:");
