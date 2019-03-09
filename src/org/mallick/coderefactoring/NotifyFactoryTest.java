@@ -17,7 +17,7 @@ public final class NotifyFactoryTest {
 		String condition12 = "N";
 		
 		while(condition.equals("y")) {
-			System.out.println("Please enter a class name:");
+			System.out.println("Please enter a valid class name:");
 			
 			String classNmae = PACKAGE_NAME.concat(".").concat(sc.nextLine());
 			
